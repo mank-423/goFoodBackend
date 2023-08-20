@@ -6,7 +6,7 @@ const mongodb = require('./db');
 const cors=require("cors");
 const corsOptions ={
    origin:'*', 
-   credentials:true,            //access-control-allow-credentials:true
+   credentials:true,            //Commenting this out access-control-allow-credentials:true
    optionSuccessStatus:200,
 }
 
