@@ -30,7 +30,7 @@ app.use('/api', require("./Routes/DisplayData"));
 app.use('/api', require("./Routes/OrderData"));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello to the API for goFoodProject, you can access the endpoints with POST method. The endpoints are /api/createuser, /api/myOrderData, /api/loginuser, /api/foodData')
 })
 
 
